@@ -43,8 +43,8 @@ $recipe = $recipe->getRecipe();
 {
     "recipe_name": "Fondant au chocolat",
     "guests_number": 8,
-    "preparation_time": 15, // in minutes
-    "cook_time": 20, // in minutes
+    "preparation_time": 15,
+    "cook_time": 20,
     "ingredients": [
         "200 g de chocolat à cuire",
         "100 g de beurre",
