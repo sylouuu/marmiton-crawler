@@ -31,7 +31,7 @@ require_once './vendor/autoload.php';
 use sylouuu\MarmitonCrawler\Recipe\Recipe;
 
 // Fetch the recipe
-$recipe = new Recipe('http://www.marmiton.org/recettes/recette_salade-de-papayes-epicee_333809.aspx');
+$recipe = new Recipe('http://www.marmiton.org/recettes/recette_fondant-au-chocolat_15025.aspx');
 
 // JSON format
 $recipe = $recipe->getRecipe();
