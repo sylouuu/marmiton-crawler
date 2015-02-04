@@ -59,7 +59,7 @@
 
         /**
          * @expectedException \InvalidArgumentException
-         * @expectedExceptionMessage This recipe does not ex
+         * @expectedExceptionMessage This recipe does not exists.
          */
         public function testRecipeExceptionNotFound()
         {
