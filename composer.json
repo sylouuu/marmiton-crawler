@@ -1,0 +1,24 @@
+{
+    "name": "sylouuu/marmiton-crawler",
+    "description": "Crawl Marmiton recipes",
+    "type": "library",
+    "keywords": ["marmiton", "recipe"],
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/sylouuu/marmiton-crawler",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/sylouuu/marmiton-crawler/issues"
+    },
+    "require": {
+        "paquettg/php-html-parser": "1.6.*",
+        "sylouuu/php-curl": "0.7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sylouuu\\MarmitonCrawler\\": "src/"
+        }
+    }
+}
