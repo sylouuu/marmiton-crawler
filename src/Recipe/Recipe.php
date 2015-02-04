@@ -45,7 +45,8 @@
          *
          * @return string
          */
-        public function getRecipe () {
+        public function getRecipe ()
+        {
             return json_encode($this->data);
         }
 
@@ -55,7 +56,8 @@
          * @param object $dom
          * @return array
          */
-        private function _extractData ($dom) {
+        private function _extractData ($dom)
+        {
             return [
                 'recipe_name'      => Parser\RecipeName::parse($dom),
                 'guests_number'    => Parser\GuestsNumber::parse($dom),
@@ -73,7 +75,8 @@
          * @throws \InvalidArgumentException
          * @return mixed
          */
-        private function _loadUrl ($url) {
+        private function _loadUrl ($url)
+        {
             $url_components = parse_url($url);
 
             if ($url_components['host'] !== 'www.marmiton.org') {
